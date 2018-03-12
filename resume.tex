@@ -1,0 +1,168 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Lokesh Sanapalli <s.lokesh1729@gmail.com>
+% http://www.posquit0.com
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Configuration
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% Themes: Awesome-CV
+\documentclass[]{awesome-cv}
+\usepackage{textcomp}
+%%% Override a directory location for fonts(default: 'fonts/')
+\fontdir[fonts/]
+
+%%% Configure a directory location for sections
+\newcommand*{\sectiondir}{resume/}
+
+%%% Override color
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+%% Color for highlight
+% Define your custom color if you don't like awesome colors
+\colorlet{awesome}{awesome-red}
+%\definecolor{awesome}{HTML}{CA63A8}
+%% Colors for text
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+%%% Override a separator for social informations in header(default: ' | ')
+%\headersocialsep[\quad\textbar\quad]
+    \begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Profile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+	\headerfirstnamestyle{Lokesh} \headerlastnamestyle{Sanapalli} \\
+	\vspace{2mm}
+	{\faEnvelope\ s.lokesh1729@gmail.com} | {\faMobile\ 8466905904} | {\faMapMarker\ Byrasandra, C.V.Raman Nagar, Bangalore} | {\faLink\ https://linkedin.com/in/lokesh1729} | {\faLink\ https://github.com/lokesh1729}
+\end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Education}
+\begin{cventries}
+	\cventry
+	{B.Tech in Computer Science}
+	{International Institute of Information Technology (RGUKT)}
+	{Nuzvid}
+	{May 2015}
+	{GPA: 8.1}
+	\cventry
+	{PUC in M.Bi.P.C}
+	{International Institute of Information Technology (RGUKT)}
+	{Nuzvid}
+	{July 2011}
+	{GPA: 9.35}
+	\cventry
+	{SSC (X) in SSC}
+	{Z.P.H School}
+	{S.Annavaram}
+	{May 2009}
+	{Percentage: 92}
+\end{cventries}
+
+\vspace{-3mm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvsection{Experience}
+\begin{cventries}
+	\cventry
+	{Software Development Engineer - 1}
+	{Bigbasket}
+	{Bangalore}
+	{November 2016 – Present}
+	{\begin{cvitems}
+		\item {Full stack developer working on backend, devops and frontend}
+		\item {Working on python django framework and angularjs}
+		\item {Developing new features for the customer and admin}
+		\item {Part of the main features like cancellation charges, search 2.0}
+		\item {Optimizing and rewriting APIs, improving reliability and performance of infrastructure with the help of newrelic and aws}
+		\end{cvitems}}
+	\cventry
+	{Freelance Software Developer}
+	{}
+	{}
+	{July 2016 - October 2016}
+	{\begin{cvitems}
+		\item {Worked on web scraping and django projects}
+	\end{cvitems}}
+	\cventry
+	{Associate Software Engineer}
+	{Cigital}
+	{Bangalore}
+	{July 2015 – June 2016}
+	{\begin{cvitems}
+		\item {Proactively identify bugs and proposing solutions}
+		\item {Writing efficient and maintainable code}
+		\item {R \& D on google analytics, POC on google sheets API}
+		\item {Writing amazon lambda microservices in python.}
+		\end{cvitems}}
+\end{cventries}
+\vspace{-5mm}
+\cvsection{Skills}
+\begin{cventries}
+	\cventry
+	{}
+	{\def\arraystretch{1.15}{\begin{tabular}{ l l }
+		Java:  & {\skill{ My favourite programming language}} \\
+		Python:  & {\skill{ From where I started learning programming}} \\
+		C:  & {\skill{ My first statically typed programming language}} \\
+		Data Structures:  & {\skill{ My first love}} \\
+		Algorithms:  & {\skill{ With whom I spent most of my time}} \\
+		Django:  & {\skill{ My first back-end framework}} \\
+		Java Script:  & {\skill{ My first front-end scripting language}} \\
+		Nodejs: & {\skill{ Currently learning and exploring in depth}} \\
+		\end{tabular}}}
+	{}
+	{}
+	{}
+\end{cventries}
+\vspace{-10mm}
+\cvsection{Projects}
+\begin{cventries}
+	\cventry
+	{In bigbasket, initially I was part of implementing cancellation charges with different configurations, also part of refining search feature. Involed in DB pruning which reduces RDS cost of aws. Reducing db size from TBs to Gigs is the main aim of it. Part of platform team, improving performance, reliability.}
+	{DB Pruning, Cancellation Charges, Search2.0}
+	{Python,Django,Nodejs,JS,AWS}
+	{Bigbasket}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+\begin{cventries}
+	\cventry
+	{In Cigital, I was part of Cedar project, a web portal where user uploads code to analyze vulnerabilities. Part of writing unit tests and automation tests to the existing features. DCV is a software that was built using java swing framework which depicts different components of digital circuits. We did this with as part of our engineering.}
+	{Cedar, Digital Circuit Visualization}
+	{Java,Selenium,Spring,Swing}
+	{Cigital}
+	{}
+	
+	\vspace{-5mm}
+\end{cventries}
+%\begin{cventries}
+%	\cventry
+%	{A software that was built using java swing framework which depicts different components of digital circuits. We did this with love as part of our engineering}
+%	{Digital Circuit Visualization}
+%	{Java}
+%	{https://github.com/lokesh1729/Digital-Circuit-Visualization}
+%	{}
+%	
+%	\vspace{-5mm}
+%\end{cventries}
+ 
+\end{document}
